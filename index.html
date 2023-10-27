@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assist/css/bootstrap.css">
+</head>
+
+<body class="m-0 p-0 bg-warning">
+    <div class="row bg-success ">
+        <h1 class="bg-success text-white mx-5"></h1>
+    </div>
+    <div class="row  col-md-4 mt-5 mx-5">
+
+        <div class="col-md-4 bg-white w-100 h-50 p-3 m-3">
+            <h3>A</h3>
+            <div id="dice">
+
+
+            </div>
+            <div class="bg-primary m-1 p-2">
+                <label for="" class="score w-50 bg-white p-2 pr-4  border border-dark border-2 ">score:</label>
+                <button class="btn btn-secondary m-2 py-2 border border-dark border-2  mx-5" onclick="roller1()">Roll
+                    now</button>
+            </div>
+
+        </div>
+        <div class="col-md-4 bg-white w-100 h-50 p-3 m-3 ">
+            <h3>B</h3>
+            <div id="dice2">
+
+
+            </div>
+            <div class="bg-primary m-1 p-2">
+                <label for="" class="score2 w-50 bg-white p-2 pr-4  border border-dark border-2 ">score:</label>
+                <button class="btn btn-secondary m-2 py-2 border border-dark border-2  mx-5" onclick="roller2()">Roll
+                    now</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./assist/script.js"></script>
+    <script src="./assist/js/bootstrap.js"></script>
+</body>
+
+</html>
